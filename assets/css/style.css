@@ -286,7 +286,7 @@ input[type=submit] {
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
-    overflow: auto;
+    overflow: hidden;
     color: #fff;
     
     border-bottom: 2px solid #ccc;
@@ -298,28 +298,30 @@ input[type=submit] {
   }
 
   .main-section {
-    position: absolute;
-   
-    
-    margin: 0px 10px 40px 10px;
     width: 97%;
-    margin: 0 auto 40px 10px;
+    margin: 40px auto 40px 10px;
 
 
   }
 
   #logo {
-  
+    width: 100%;
+    margin: auto;
+    text-align: center;    
+    overflow: hidden;
   }
 
   nav {
-    clear: both;
+    margin: auto;
+    position: relative;
+    right: 25%;
+    
 
 
   }
 
-  nav a {
-  
+  .container {
+    margin: auto;
 
   }
 
